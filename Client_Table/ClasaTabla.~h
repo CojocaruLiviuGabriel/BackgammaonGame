@@ -1,0 +1,17 @@
+//---------------------------------------------------------------------------
+#include <ExtCtrls.hpp>
+#ifndef ClasaTablaH
+#define ClasaTablaH
+
+
+class Tabla
+{
+TImage *board;
+int tabla[13][12];
+public:
+void InitTabla();
+Tabla();
+};
+//---------------------------------------------------------------------------
+#endif
+ 

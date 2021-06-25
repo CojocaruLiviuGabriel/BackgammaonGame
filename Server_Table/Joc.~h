@@ -1,0 +1,26 @@
+//---------------------------------------------------------------------------
+
+#ifndef JocH
+#define JocH
+#include "ClasaTabla.h"
+#include "Piese.h"
+#include "Zaruri.h"
+#include "Pozitie.h"
+
+class Joc: public Pozitie
+{
+        Tabla *tb;
+       
+       
+public:
+        //Zaruri *z;
+          Piese *pesa[30];
+      ~Joc();
+      void AfisTabla();
+      void AfisPieseUnu();
+      void AfisPieseDoi();
+      void AfisZaruri();
+};
+
+//---------------------------------------------------------------------------
+#endif
